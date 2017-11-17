@@ -1,0 +1,115 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background-image: url(images/castres.jpg);
+}
+#fond-noir{
+	background-color: rgba(0,0,0,0.7);
+	height: 1024px;
+}
+#img-menu{
+	height: 55px;
+	width: 55px;
+	padding-left: 35px;
+	padding-top: 35px;
+}
+
+#logo{
+	height: 124px;
+	width: 102px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 125px;
+}
+
+#SELF{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#h2acceuil{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	color: #ff9900;
+}
+
+#reseaux{
+	height: 50px;
+	width: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+}
+
+#reseaux-3{
+	width: 310px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fleche{
+	height: 75px;
+	width: 75px;
+	padding-top: 175px;
+}
+
+#divfleche{
+	width: 75px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* PAGE MENU */
+
+#fond-noir2{
+	background-color: rgb(0,0,0);
+	height: 1024px;
+}
+
+#img-croix{
+	height: 55px;
+	width: 55px;
+	padding-left: 35px;
+	padding-top: 35px;
+}
+
+#div-menu{
+	width: 207px;
+	margin: auto;
+}
+
+#list-menu{
+	display: block;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	color: #FFFFFF;
+	font-size: 35px;
+	padding-top: 100px;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#list-menu:hover{
+	color: #ff9900;	
+}
+
+#reseauxbis{
+	height: 30px;
+	width: 30px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+}
+
+#reseaux-3bis{
+	float: right;
+	padding-top: 35px;
+	width: 310px;
+	margin-left: auto;
+	margin-right: auto;
+}
