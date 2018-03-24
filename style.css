@@ -1,115 +1,63 @@
-body{
-	padding: 0px;
-	margin: 0px;
-	background-image: url(images/castres.jpg);
+@font-face{
+	font-family: "Code Pro Normal";
+	src : url("Code Pro.otf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
 }
-#fond-noir{
-	background-color: rgba(0,0,0,0.7);
-	height: 1024px;
+
+@font-face{
+	font-family: "Code Pro Gras";
+	src : url("Code Pro Bold.otf") format("truetype");
+	font-style: normal;
 }
-#img-menu{
-	height: 55px;
-	width: 55px;
-	padding-left: 35px;
-	padding-top: 35px;
+
+@font-face{
+	font-family: "Code Pro Léger";
+	src : url("Code Pro Light.otf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
 }
+
 
 #logo{
-	height: 124px;
-	width: 102px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 125px;
+	width: 6%;
+	height: 6%;
+	margin-top: 10px;
+	margin-left: 15px;
 }
 
-#SELF{
-	text-align: center;
-	font-family: 'Quicksand', sans-serif;
-	color: white;
-	font-weight: bold;
-	font-size: 50px;
+#titre_logo{
+	font: "Code Pro Gras";
+	font-size: 40px;
+	margin-left: 30px;
+	padding-top: 10px;
 }
 
-#h2acceuil{
-	text-align: center;
-	font-family: 'Quicksand', sans-serif;
-	color: #ff9900;
-}
-
-#reseaux{
-	height: 50px;
-	width: 50px;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 25px;
-}
-
-#reseaux-3{
-	width: 310px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#fleche{
-	height: 75px;
-	width: 75px;
-	padding-top: 175px;
-}
-
-#divfleche{
-	width: 75px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-/* PAGE MENU */
-
-#fond-noir2{
-	background-color: rgb(0,0,0);
-	height: 1024px;
-}
-
-#img-croix{
-	height: 55px;
-	width: 55px;
-	padding-left: 35px;
-	padding-top: 35px;
-}
-
-#div-menu{
-	width: 207px;
+img.superbg {
 	margin: auto;
+	max-height: 756px;
 }
 
-#list-menu{
-	display: block;
-	text-align: center;
-	font-family: 'Quicksand', sans-serif;
-	color: #FFFFFF;
-	font-size: 35px;
-	padding-top: 100px;
-	text-decoration: none;
-	margin-left: auto;
-	margin-right: auto;
+#nav_icon{
+	margin-left: 25px;
+	margin-top: -20px;
 }
 
-#list-menu:hover{
-	color: #ff9900;	
+.pure-menu-list{
+	max-height: 730px;
+	position: fixed;
 }
 
-#reseauxbis{
-	height: 30px;
-	width: 30px;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 25px;
+#div_blanc_1{
+	margin-top: 10px;
 }
 
-#reseaux-3bis{
-	float: right;
-	padding-top: 35px;
-	width: 310px;
-	margin-left: auto;
-	margin-right: auto;
+.div_blanc_2{
+	margin-top: 130px;
+}
+
+#nav_icon:hover{
+	-webkit-animation: zoomIn 1s;
+	animation: zoomIn 1s;
+	border: 1px solid black;
 }
